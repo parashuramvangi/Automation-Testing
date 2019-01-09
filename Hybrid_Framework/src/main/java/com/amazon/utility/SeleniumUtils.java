@@ -15,13 +15,11 @@ public class SeleniumUtils {
 		System.setProperty("webdriver.chrome.driver", "path of chromeDriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("www.google.com");
-		File file=new File("");
-		file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	}
 	
 	public static void selectOptions(WebElement ele, String option) {
 		Select select=new Select(ele);
 		select.selectByVisibleText(option);
-		
 	}	
 }
