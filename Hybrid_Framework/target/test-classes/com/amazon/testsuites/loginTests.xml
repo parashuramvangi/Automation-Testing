@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- 	<test thread-count="1" name="chromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.amazon.basic_tests.LoginTests" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="FirefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.amazon.basic_tests.LoginTests" />
+		</classes>
+	</test>
+ -->	
+
+	<parameter name="browser" value="internet explorer"></parameter>
+	<test thread-count="5" name="ie">
+		<classes>
+			<class name="com.amazon.basic_tests.LoginTests" />
+		</classes>
+	</test>
+
+</suite> 

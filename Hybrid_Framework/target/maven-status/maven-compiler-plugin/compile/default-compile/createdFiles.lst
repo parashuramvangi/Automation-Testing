@@ -1,0 +1,8 @@
+com\amazon\base\BaseClass.class
+com\amazon\pageobjects\signin\SignIn.class
+com\amazon\utility\PropertiesFileUtils.class
+com\amazon\signIn\HomePage.class
+com\amazon\utility\SeleniumUtils.class
+com\amazon\commondata\CommonData.class
+com\amazon\reports\Reporter.class
+com\amazon\utility\ExcelFileUtils.class
